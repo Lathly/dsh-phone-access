@@ -1,0 +1,6 @@
+# dsh-phone-access bundle layer: mounts the function plugin, which starts
+# the token trampoline HTTP service (phone bookmark -> fresh DSH token
+# redirect) and registers the phone_access_status / phone_access_url tools.
+- insert:
+  - id: phone-access
+    name: '@lathly/dsh-phone-access'
