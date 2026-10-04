@@ -22,7 +22,7 @@ import { defineTool } from '@deepseek-ai/dsh-tools'
 import type { JsonValue } from '@deepseek-ai/dsh-util-values'
 
 export const name = 'phone-access'
-export const inject: string[] = []
+export const inject: string[] = ['tools']
 
 /** Plugin configuration. */
 export interface Config {
